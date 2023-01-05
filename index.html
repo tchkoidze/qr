@@ -8,8 +8,13 @@
       href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>QR Code Card</title>
     <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
       body {
         background-color: #d5e1ef;
         display: flex;
@@ -23,7 +28,6 @@
         border-radius: 20px;
         overflow: hidden;
         padding: 16px;
-        height: 520px;
 
         font-family: "Outfit";
         font-style: normal;
@@ -33,6 +37,7 @@
         text-align: center;
       }
       img {
+        display: block;
         max-width: 100%;
         border-radius: 10px;
       }
@@ -41,19 +46,25 @@
         font-style: normal;
         font-weight: 700;
         font-size: 22px;
-        line-height: 18px;
+        line-height: 28px;
         text-align: center;
         color: #1f314f;
+        margin: 16px 0 24px 0;
       }
       p {
         color: #7d889e;
+        letter-spacing: 0.1875px;
+        margin: 0 16px 24px 16px;
       }
     </style>
   </head>
   <body>
     <div>
       <img src="image-qr-code.png" />
-      <h1>Improve your front-end skills by building projects</h1>
+      <h1>
+        Improve your front-end <br />
+        skills by building projects
+      </h1>
       <p>
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
